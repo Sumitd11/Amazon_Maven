@@ -26,9 +26,7 @@ public class TestClass1 {
 	LoginPage lp;
 	
 	ExtentHtmlReporter extentReporter;
-	
 	ExtentReports reports;
-	
 	ExtentTest test;
 	
 	@BeforeClass
