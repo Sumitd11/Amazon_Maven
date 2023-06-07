@@ -36,6 +36,7 @@ public class TestClass1 {
 		reports = BaseClass1.getReports();
 		test = BaseClass1.getTest("TestClass1");
 		driver = BaseClass1.getDriver("chrome");
+		
 	}
 	
 	@BeforeMethod
@@ -75,8 +76,6 @@ public class TestClass1 {
 		reports.flush();
 		System.out.println("after class");
 	}
-	
-	
 	
 
 
